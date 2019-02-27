@@ -17,6 +17,10 @@ The bytecount is the minimum bytecount users in this class have been able to get
 `:`
 + Modulo two numbers (e.g. f(100, 57)=43) *Minimum needed bytes: 1*
 `%`
++ Exponentiate two numbers (e.g. f(6, 6)=46656) *Minimum needed bytes: 1*
+
++ N-root two numbers (e.g. f(134217728, 9)=8) *Minimum needed bytes: 3*
+
 + Negate a number (e.g. f(600)=-600, f(-5)=5) *Minimum needed bytes: 1*
 `N`
 + Find the absolute value (e.g. f(-8192)=8192, f(11)=11) *Minimum needed bytes: 1*
@@ -27,7 +31,7 @@ The bytecount is the minimum bytecount users in this class have been able to get
 `ÆḞ`
 + Create an N×M 2D array (list of lists) of anything. Even inconsistent values are allowed. Example for f(5, 4):
 ```
-[[1, 3, 1, 4, 8888], [[1, 2], 3, '@', 0, -9999999999999], ['', '', 1j, (1+2j), ['l', 'l', 'a', 'm', 'a']], [1, 2, 3, 4, 5]]
+  [[1, 3, 1, 4, 8888], [[1, 2], 3, '@', 0, -9999999999999], ['', '', 1j, (1+2j), ['l', 'l', 'a', 'm', 'a']], [1, 2, 3, 4, 5]]
 ```
 *(Minimum needed bytes: 2)*
 `ẋẋ`
